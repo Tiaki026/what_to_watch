@@ -40,3 +40,14 @@ pip install -r requirements.txt
 ```
 flask run
 ```
+
+Полезные команды
+```
+flask db init            - создать репозиторий
+flask db migrate -m " "  - миграции
+flask db upgrade         - приминить изменения
+flask run                - Run a development server
+flask shell              - Run a shell in the app context
+flask db init            - Perform database migrations
+load_opinions            - Функция загрузки мнений в базу данных
+```
